@@ -1,0 +1,45 @@
+.App {
+  background-image: linear-gradient(
+      to right,
+      rgba(4, 213, 228, 0.8),
+      rgba(121, 209, 231, 0.178)
+    ),
+    url("../logo/fondo_arg.jpg");
+  padding: 5rem 0;
+  background-position: center;
+  background-size: cover;
+}
+.titulo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(66, 0, 128);
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.datos {
+  position: relative;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.boton {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  transition-property: background-color;
+  transition-duration: 300ms;
+}
+.footer {
+  position: relative;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
